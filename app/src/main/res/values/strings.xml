@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">TrocaTelas</string>
+    <string name="valor">valor</string>
+    <string name="confirmar">Confirmar</string>
+    <string name="listar">Listar</string>
+    <string name="qtnd">Qtnd</string>
+    <string name="cod">Cod</string>
+    <string name="lancamento">Lançamento</string>
+</resources>
