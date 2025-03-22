@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".LancamentoActivity">
+    tools:context=".ConfirmarActivity">
 
 
     <TextView
@@ -13,11 +13,11 @@
         android:layout_height="wrap_content"
         android:text="@string/cod" />
 
-    <EditText
-        android:id="@+id/etCod"
+    <TextView
+        android:id="@+id/tvCod"
         android:layout_width="160dp"
         android:layout_height="wrap_content"
-        android:inputType="number" />
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
 
 
     <TextView
@@ -25,11 +25,11 @@
         android:layout_height="wrap_content"
         android:text="@string/qtnd" />
 
-    <EditText
-        android:id="@+id/etQntd"
+    <TextView
+        android:id="@+id/tvQntd"
         android:layout_width="160dp"
         android:layout_height="wrap_content"
-        android:inputType="number" />
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
 
 
     <TextView
@@ -37,29 +37,16 @@
         android:layout_height="wrap_content"
         android:text="@string/valor" />
 
-    <EditText
-        android:id="@+id/etValor"
+    <TextView
+        android:id="@+id/tvValor"
         android:layout_width="160dp"
         android:layout_height="wrap_content"
-        android:inputType="numberDecimal" />
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
 
-    <LinearLayout
+    <Button
+        android:id="@+id/btEnviar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:text="@string/enviar" />
 
-        <Button
-            android:id="@+id/btConfirmar"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:onClick="btConfirmarOnClick"
-            android:text="@string/confirmar" />
-
-        <Button
-            android:id="@+id/btListar"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:onClick="btListarOnClick"
-            android:text="@string/listar" />
-    </LinearLayout>
 </LinearLayout>
