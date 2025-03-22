@@ -1,10 +1,7 @@
 package br.edu.utfpr.trocatelas
 
 import android.os.Bundle
-import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
 
 class LancamentoActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
